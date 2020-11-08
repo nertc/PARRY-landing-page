@@ -3,8 +3,10 @@
 @media screen and (max-width: 767px) {
     #home {
         grid-template-columns: 0px 1fr 0px;
-        padding-top: 45px;
-        height: 212px;
+        padding-top: 14.25%;
+        height: 66vw;
+        min-height: 212px;
+        max-height: 590px;
 
         img {
             display: none;
@@ -14,7 +16,7 @@
             font-size: 1.55em;
             letter-spacing: 0.005em;
             padding-right: 4px;
-            height: 28px;
+            height: 26px;
         }
 
         h3 {

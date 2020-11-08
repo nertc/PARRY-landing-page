@@ -161,11 +161,13 @@ header .burger .inner {
   }
 
   header {
-    height: 67px;
+    height: 21vw;
+    max-height: 109px;
+    min-height: 67.5px;
     grid-template-columns: 20px 1fr 20px;
   }
   header .logo {
-    width: 92px;
+    width: auto;
     height: 31px;
     margin-bottom: 5px;
   }
@@ -176,15 +178,18 @@ header .burger .inner {
   }
   header .burger {
     display: flex;
-    width: 48px;
-    height: 31px;
+    width: 17.5%;
+    height: 50%;
+    max-width: 56px;
+    max-height: 39px;
   }
   header .burger .inner {
-    width: 44px;
-    height: 27px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
   }
   header .burger img {
-    width: 22px;
+    width: 50%;
+    max-width: 30px;
     height: 12px;
   }
   header nav {
@@ -327,8 +332,10 @@ header .burger .inner {
 @media screen and (max-width: 767px) {
   #home {
     grid-template-columns: 0px 1fr 0px;
-    padding-top: 45px;
-    height: 212px;
+    padding-top: 14.25%;
+    height: 66vw;
+    min-height: 212px;
+    max-height: 590px;
   }
   #home img {
     display: none;
@@ -337,7 +344,7 @@ header .burger .inner {
     font-size: 1.55em;
     letter-spacing: 0.005em;
     padding-right: 4px;
-    height: 28px;
+    height: 26px;
   }
   #home h3 {
     font-size: 1.8em;

@@ -6,11 +6,13 @@
     }
 
     header {
-        height: 67px;
+        height: 21vw;
+        max-height: 109px;
+        min-height: 67.5px;
         grid-template-columns: 20px 1fr 20px;
         
         .logo {
-            width: 92px;
+            width: auto;
             height: 31px;
             margin-bottom: 5px;
 
@@ -23,16 +25,19 @@
 
         .burger { 
             display: flex;
-            width: 48px;
-            height: 31px;
+            width: 17.5%;
+            height: 50%;
+            max-width: 56px;
+            max-height: 39px;
 
             .inner {
-                width: 44px;
-                height: 27px;
+                width: calc(100% - 4px);
+                height: calc(100% - 4px);
             }
 
             img {
-                width: 22px;
+                width: 50%;
+                max-width: 30px;
                 height: 12px;
             }
         }

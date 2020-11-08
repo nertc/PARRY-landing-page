@@ -1,0 +1,44 @@
+@import '../../palette';
+
+header {
+    background-color: $header-color;
+    width: 100%;
+    align-items: center;
+
+    .main {
+        grid-column: 2 / 3;
+    }
+
+    .logo {
+        img {
+            height: 100%;
+        }
+
+        h1 {
+            color: $text-color;
+            font-weight: 300;
+        }
+    }
+
+    nav {
+        ul {
+            width: 100%;
+        }
+
+        a {
+            color: $text-color;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    }
+
+    .burger {
+        background-color: $focus-color;
+
+        .inner {
+            background-color: transparent;
+            border: 1px solid $inner-border-color;
+        }
+    }
+}

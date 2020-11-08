@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.001" height="41.014" viewBox="0 0 27.001 41.014">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.413" y1="0.78" x2="0.587" y2="0.22" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b9a96"/>
+      <stop offset="1" stop-color="#005a57"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.19" y1="0.702" x2="-0.19" y2="0.298" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21a09c"/>
+      <stop offset="1" stop-color="#005653"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.71" y1="0.895" x2="0.29" y2="0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00807c"/>
+      <stop offset="1" stop-color="#3ab6b2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-375 -27)">
+    <g id="Shape_30" data-name="Shape 30">
+      <path id="Shape_30-2" data-name="Shape 30" d="M385.527,47.418l10.366-5.833,6.027,5.1-16.313,8.832Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M385.527,47.418l10.366-5.833,6.027,5.1-16.313,8.832Z" opacity="0.77" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Shape_31" data-name="Shape 31">
+      <path id="Shape_31-2" data-name="Shape 31" d="M375.08,31.538l7.715,3.646.031,32.831L375.08,68Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay-2" data-name="Gradient Overlay" d="M375.08,31.538l7.715,3.646.031,32.831L375.08,68Z" opacity="0.77" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Shape_29" data-name="Shape 29">
+      <path id="Shape_29-2" data-name="Shape 29" d="M375,31.538,382.634,27,402,38.1l-.08,8.669Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay-3" data-name="Gradient Overlay" d="M375,31.538,382.634,27,402,38.1l-.08,8.669Z" opacity="0.77" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

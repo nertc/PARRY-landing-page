@@ -1,0 +1,44 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px){
+    html, body {
+        min-width: 320px;
+    }
+
+    header {
+        height: 67px;
+        grid-template-columns: 20px 1fr 20px;
+        
+        .logo {
+            width: 92px;
+            height: 31px;
+            margin-bottom: 5px;
+
+            h1 {
+                font-size: 27px;
+                margin-top: 10px;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .burger { 
+            display: flex;
+            width: 48px;
+            height: 31px;
+
+            .inner {
+                width: 44px;
+                height: 27px;
+            }
+
+            img {
+                width: 22px;
+                height: 12px;
+            }
+        }
+
+        nav {
+            display: none;
+        }
+    }
+}

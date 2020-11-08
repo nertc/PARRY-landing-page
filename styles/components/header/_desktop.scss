@@ -1,0 +1,45 @@
+@import '../../palette';
+
+@media screen and (min-width: 1025px) {
+    header {
+        grid-template-columns: minmax(25px, 1fr) minmax(970px, 1170px) minmax(25px, 1fr);
+        
+        .logo {
+            width: 121px;
+            margin-bottom: 5px;
+
+            h1 {
+                font-size: 36px;
+                margin-top: 12px;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .burger {
+            display: none;
+        }
+
+        
+
+        nav {
+            display: block;
+
+            width: 740px;
+            margin-bottom: 2px;
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    header{
+        height: 106px;
+
+        .logo {
+            height: 45px;
+        }
+    }
+}

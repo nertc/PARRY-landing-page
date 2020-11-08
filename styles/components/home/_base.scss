@@ -6,10 +6,15 @@
     align-items: center;
     text-align: center;
 
-    img {
+    .img {
         width: 23px;
         height: 37px;
         margin-bottom: 122.5px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
     }
 
     .left {

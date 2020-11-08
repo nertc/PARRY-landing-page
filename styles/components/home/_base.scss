@@ -1,0 +1,56 @@
+@import '../../palette';
+
+#home {
+    background-color: $primary-color-v1;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 23px;
+        height: 37px;
+        margin-bottom: 122.5px;
+    }
+
+    .left {
+        grid-column: 1 / 2;
+        position: absolute;
+        left: 40px;
+    }
+
+    .right {
+        grid-column: 3 / 4;
+        position: absolute;
+        right: 40px;
+    }
+
+    h2 {
+        font-weight: 200;
+        color: $text-color;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: $text-color;
+    }
+
+    p {
+        width: 100%;
+        height: 24px;
+        overflow: hidden;
+
+        font-weight: 300;
+        color: $text-color;
+    }
+
+    button {
+        background-color: $focus-color;
+        border: 1px solid $inner-border-color;
+        outline: 3px solid $focus-color;
+        
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: $text-color;
+    }
+}

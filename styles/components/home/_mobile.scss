@@ -1,0 +1,44 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    #home {
+        grid-template-columns: 0px 1fr 0px;
+        padding-top: 45px;
+        height: 212px;
+
+        img {
+            display: none;
+        }
+
+        h2 {
+            font-size: 1.55em;
+            letter-spacing: 0.005em;
+            padding-right: 4px;
+            height: 28px;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            padding-right: 5px;
+            word-spacing: 0.06em;
+            margin-bottom: 2px;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            font-size: 0.55em;
+            margin-bottom: 18px;
+            letter-spacing: -0.0em;
+            word-spacing: 0.045em;
+            padding: 0 24px;
+            height: 10px;
+        }
+
+        button {
+            width: 60px;
+            height: 15px;
+            outline-width: 2px;
+            font-size: 0.425em;
+        }
+    }
+}

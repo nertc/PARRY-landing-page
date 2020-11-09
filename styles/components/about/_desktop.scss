@@ -1,0 +1,132 @@
+@import '../../palette';
+
+@media screen and (min-width: 1025px) {
+    #about {
+        grid-template-columns: minmax(20px, 1fr) minmax(738px, 1176px) minmax(20px, 1fr);
+        padding-top: 114px;
+        padding-bottom: 127px;
+
+        .mobile, .tablet, .small, button, .mob {
+            display: none;
+        }
+
+        .desktop {
+            display: inline;
+        }
+
+        .big {
+            display: flex;
+        }
+
+        .desk, .screen {
+            display: block;
+        }
+        
+        .header {
+            margin-bottom: 91px;
+
+            h2 {
+                font-size: 31px;
+                margin-bottom: 12px;
+            }
+
+            img {
+                width: 17px;
+                height: 17px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 37px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            hr {
+                display: none;
+            }
+
+            & > .img {
+                width: 510px;
+                height: 414px;
+                margin-top: 5px;
+
+                .screen {
+                    width: 468px;
+                    height: 263px;
+
+                    position: absolute;
+                    left: 21px;
+                    top: 21px;
+                }
+            }
+
+            article {
+                left: 12px;
+
+                & > p {
+                    font-size: 14px;
+                    line-height: 27px;
+                    margin-bottom: 41px;
+                }
+
+                p:not(.mobile-text) {
+                    display: block;
+                }
+
+                .mobile-text {
+                    display: none;
+                }
+            }
+
+            h3 {
+                font-size: 31px;
+                letter-spacing: -0.6px;
+                margin-bottom: 22px;
+            }
+
+            li {
+                width: 275px;
+                height: 90px;
+    
+                span {
+                    display: none;
+                }
+    
+                h4 {
+                    display: block;
+                }
+    
+                p {
+                    width: 185px;
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+            ul {
+                height: 216px;
+                padding-left: 2px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #about {
+        article {
+            width: 450px;
+        }
+        ul {
+            justify-content: center;
+        }
+        transition: all 1s;
+    }
+}

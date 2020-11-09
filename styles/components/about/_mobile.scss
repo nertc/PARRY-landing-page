@@ -1,0 +1,139 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    #about {
+        grid-template-columns: 0px 1fr 0px;
+        padding-top: 36px;
+        padding-bottom: 43px;
+
+        .big, .desk, .screen {
+            display: none;
+        }
+
+        .tablet, .desktop {
+            display: none;
+        }
+
+        .small {
+            display: flex;
+        }
+
+        button, .mob {
+            display: block;
+        }
+        
+        .header {
+            margin-bottom: 35px;
+
+            h2 {
+                font-size: 27px;
+                margin-bottom: 11px;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 33px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            hr {
+                display: block;
+                width: auto;
+                height: 1px;
+                background-color: $hr-color;
+                margin-bottom: 11px;
+            }
+
+            & > .img {
+                width: calc(100% - 40px);
+                height: 207px;
+                background-color: black;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 17px;
+            }
+
+            article {
+                margin-left: 20px;
+                margin-right: 20px;
+                & > p {
+                    width: 100%;
+                    font-size: 13px;
+                    line-height: 23px;
+                    margin-bottom: 33px;
+                }
+
+                p:not(.mobile-text) {
+                    display: none;
+                }
+
+                .mobile-text {
+                    display: block;
+                }
+            }
+
+            h3 {
+                font-size: 16px;
+                letter-spacing: -0.4px;
+                margin-bottom: 11px;
+            }
+
+            li {
+                width: 100%;
+                margin-bottom: 22px;
+
+                .tab {
+                    display: inline;
+                }
+    
+                h4 {
+                    display: none;
+                }
+    
+                p {
+                    float: left;
+                    width: calc(100% - 31px);
+                    font-size: 13px;
+                    line-height: 22px;
+                    margin-left: 15px;
+                }
+
+                .small {
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 5px;
+                    margin-left: 0px;
+                }
+            }
+
+            li:nth-of-type(4) {
+                display: none;
+            }
+
+            ul {
+                height: auto;
+                margin-bottom: 21px;
+            }
+
+            button {
+                width: 138px;
+                height: 42px;
+                padding-right: 5px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        // * {
+        //     transition: all 1s;
+        // }
+    }
+}

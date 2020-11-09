@@ -1,0 +1,82 @@
+@import '../../palette';
+
+#about {
+    background-color: $secondary-color;
+    width: 100%;
+    align-items: center;
+
+    .header {
+        h2 {
+            color: $text-color-dark;
+            font-weight: 600;
+            text-align: center;
+
+            span {
+                color: $focus-color;
+            }
+        }
+
+        hr {
+            background-color: $hr-color;
+        }
+    }
+
+    .main {
+        article > p {
+            font-family: 'Open Sans', sans-serif;
+            color: $text-color-light;
+        }
+
+        h3 {
+            font-weight: 700;
+            color: $text-color-dark;
+        }
+
+        .big {
+            width: 63px;
+            height: 63px;
+            background-color: $item-bg-color;
+            border-radius: 50%;
+            margin-top: 5px;
+            
+            img {
+                width: 24px;
+                height: 24px;
+            }
+
+            .mob {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        li {
+            h4 {
+                width: 185px;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: -0.35px;
+                color: $text-color-dark;
+                margin-top: 6px;
+                margin-bottom: 9px;
+            }
+
+            p {
+                font-family: 'Open Sans', sans-serif;
+                color: $text-color-light;
+            }
+        }
+        ul {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-items: center;
+        }
+
+        button {
+            background-color: $focus-color;
+            color: $text-color;
+            font-size: 13px;
+            font-weight: 700;
+        }
+    }
+}

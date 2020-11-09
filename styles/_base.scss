@@ -7,6 +7,12 @@
     scroll-behavior: smooth;
 }
 
+span {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 .main {
     grid-column: 2 / 3;
     width: 100%;
@@ -21,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: space-between;
 }
 
 .center {
@@ -34,4 +41,22 @@
 .center-self {
     margin-left: auto;
     margin-right: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@for $i from 1 to 10 {
+    .row#{$i} {
+        grid-row: $i / $i + 1;
+    }
+
+    .col#{$i} {
+        grid-column: $i / $i + 1;
+    }
 }

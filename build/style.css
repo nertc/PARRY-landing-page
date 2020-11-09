@@ -80,6 +80,7 @@ header .burger .inner {
 @media screen and (min-width: 1025px) {
   header {
     grid-template-columns: minmax(25px, 1fr) minmax(970px, 1170px) minmax(25px, 1fr);
+    transition: all 1s;
   }
   header .logo {
     width: 121px;
@@ -101,35 +102,51 @@ header .burger .inner {
   header nav a {
     font-size: 14px;
   }
+  header * {
+    transition: all 1s;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   header {
     height: 106px;
+    transition: all 1s;
   }
   header .logo {
     height: 45px;
+  }
+  header * {
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
   header {
     height: 103px;
+    transition: all 1s;
   }
   header .logo {
     height: 42px;
+  }
+  header * {
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 1601px) {
   header {
     height: 100px;
+    transition: all 1s;
   }
   header .logo {
     height: 40px;
+  }
+  header * {
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   header {
     height: 109px;
     grid-template-columns: 25px 1fr 25px;
+    transition: all 1s;
   }
   header .logo {
     width: 121px;
@@ -157,6 +174,9 @@ header .burger .inner {
   header nav {
     display: none;
   }
+  header * {
+    transition: all 1s;
+  }
 }
 @media screen and (max-width: 767px) {
   html, body {
@@ -168,6 +188,7 @@ header .burger .inner {
     max-height: 109px;
     min-height: 67.5px;
     grid-template-columns: 20px 1fr 20px;
+    transition: all 1s;
   }
   header .logo {
     width: auto;
@@ -197,6 +218,9 @@ header .burger .inner {
   }
   header nav {
     display: none;
+  }
+  header * {
+    transition: all 1s;
   }
 }
 #home {
@@ -252,6 +276,7 @@ header .burger .inner {
 @media screen and (min-width: 1025px) {
   #home {
     grid-template-columns: minmax(63px, 1fr) minmax(738px, 1170px) minmax(63px, 1fr);
+    transition: all 1s;
   }
   #home .img {
     display: block;
@@ -282,23 +307,29 @@ header .burger .inner {
     left: 12px;
     font-size: 0.8em;
   }
+  #home * {
+    transition: all 1s;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   #home {
     padding-top: 176px;
     height: 640px;
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
   #home {
     padding-top: 206px;
     height: 700px;
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 1601px) {
   #home {
     padding-top: 236px;
     height: 760px;
+    transition: all 1s;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -306,6 +337,7 @@ header .burger .inner {
     grid-template-columns: 0px 1fr 0px;
     padding-top: 150px;
     height: 590px;
+    transition: all 1s;
   }
   #home .img {
     display: none;
@@ -335,14 +367,16 @@ header .burger .inner {
     left: -3px;
     font-size: 0.79em;
   }
+  #home * {
+    transition: all 1s;
+  }
 }
 @media screen and (max-width: 767px) {
   #home {
     grid-template-columns: 0px 1fr 0px;
-    padding-top: 14.25%;
-    height: 66vw;
-    min-height: 212px;
-    max-height: 590px;
+    padding-top: 45px;
+    height: 212px;
+    transition: all 1s;
   }
   #home .img {
     display: none;
@@ -373,6 +407,9 @@ header .burger .inner {
     height: 15px;
     outline-width: 2px;
     font-size: 0.425em;
+  }
+  #home * {
+    transition: all 1s;
   }
 }
 

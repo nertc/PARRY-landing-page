@@ -45,5 +45,11 @@
         nav {
             display: none;
         }
+
+        transition: all 1s;
+        
+        * {
+            transition: all 1s;
+        }
     }
 }

@@ -31,6 +31,12 @@
                 font-size: 14px;
             }
         }
+
+        transition: all 1s;
+        
+        * {
+            transition: all 1s;
+        }
     }
 }
 
@@ -40,6 +46,12 @@
 
         .logo {
             height: 45px;
+        }
+
+        transition: all 1s;
+        
+        * {
+            transition: all 1s;
         }
     }
 }

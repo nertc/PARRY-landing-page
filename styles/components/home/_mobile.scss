@@ -3,10 +3,8 @@
 @media screen and (max-width: 767px) {
     #home {
         grid-template-columns: 0px 1fr 0px;
-        padding-top: 14.25%;
-        height: 66vw;
-        min-height: 212px;
-        max-height: 590px;
+        padding-top: 45px;
+        height: 212px;
 
         .img {
             display: none;
@@ -41,6 +39,12 @@
             height: 15px;
             outline-width: 2px;
             font-size: 0.425em;
+        }
+
+        transition: all 1s;
+        
+        * {
+            transition: all 1s;
         }
     }
 }

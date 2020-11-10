@@ -1,0 +1,76 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    #services {
+        grid-template-columns: 0px 1fr 0px;
+        padding-top: 34px;
+        padding-bottom: 40px;
+        background-color: black;
+        
+        .header {
+            margin-bottom: 55px;
+
+            h2 {
+                font-size: 27px;
+                margin-bottom: 9px;
+            }
+
+            img {
+                width: 19px;
+                height: 19px;
+    
+                margin: 0 11px;
+            }
+
+            hr {
+                width: 37px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            padding-right: 0px;
+            height: 917px;
+            flex-direction: column;
+
+            .item {
+                width: 280px;
+            }
+
+            * {
+                text-align: center;
+            }
+
+            .img {
+                width: 118px;
+                height: 137px;
+
+                margin-bottom: 42px;
+                padding-right: 2px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+
+            h3 {
+                font-size: 19px;
+                margin-bottom: 13px;
+                padding-left: 0px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 21px;
+                letter-spacing: 0.2px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}

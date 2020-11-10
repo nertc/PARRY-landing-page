@@ -60,5 +60,9 @@
         textarea {
             resize: vertical;
         }
+
+        textarea::-webkit-resizer {
+            display: none;
+        }
     }
 }

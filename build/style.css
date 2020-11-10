@@ -1462,6 +1462,9 @@ header .burger .inner {
 #contact form textarea {
   resize: vertical;
 }
+#contact form textarea::-webkit-resizer {
+  display: none;
+}
 
 @media screen and (min-width: 1025px) {
   #contact {

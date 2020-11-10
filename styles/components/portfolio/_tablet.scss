@@ -1,0 +1,107 @@
+@import '../../palette';
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #portfolio {
+        grid-template-columns: 0fr 1fr 0fr;
+        padding-top: 72px;
+        $padlr: 24px;
+        padding-bottom: $padlr;
+        padding-left: $padlr;
+        padding-right: $padlr;
+        background-color: $secondary-color;
+        
+        .header {
+            margin-bottom: 57px;
+
+            h2 {
+                font-size: 29px;
+                margin-bottom: 11px;
+            }
+
+            img {
+                width: 16px;
+                height: 16px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 35px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 229px);
+
+            .fb, .insta, .twitter {
+                display: none;
+            }
+
+            .eye, .link {
+                display: flex;
+            }
+
+            grid-gap: 21px;
+
+            .item {
+                grid-column-end: span 1;
+                grid-row-end: span 1;
+            }
+
+            .item:nth-of-type(7) {
+                display: none;
+            }
+
+            * {
+                text-align: center;
+            }
+
+            .button {
+                width: 36px;
+                height: 36px;
+
+                .eye {
+                    width: 18px;
+                    height: 10px;
+                }
+
+                .link {
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+
+            .buttons {
+                width: 82px;
+                height: 37px;
+
+                top: 80px;
+                left: calc(50% - 44px);
+            }
+
+            h3 {
+                font-size: 12px;
+                margin-bottom: 6px;
+                padding-right: 4px;
+            }
+
+            p {
+                font-size: 10px;
+                padding-right: 3px;
+            }
+            
+            .overlay {
+                padding-top: 14px;
+                padding-bottom: 13px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    #portfolio {
+        grid-template-columns: 0fr 1fr 0fr;
+        padding-top: 38px;
+        $padlr: 19px;
+        padding-bottom: $padlr;
+        padding-left: $padlr;
+        padding-right: $padlr + 1px;
+        background-color: $secondary-color;
+        
+        .header {
+            margin-bottom: 35px;
+            padding-right: 3px;
+
+            h2 {
+                font-size: 27px;
+                margin-bottom: 10px;
+            }
+
+            img {
+                width: 16px;
+                height: 16px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 33px;
+                height: 1px;
+                margin-top: 3px;
+            }
+        }
+
+        .main {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 163px);
+
+            .fb, .insta, .twitter {
+                display: flex;
+            }
+
+            .eye, .link {
+                display: none;
+            }
+
+            grid-gap: 7px;
+
+            .item {
+                grid-column-end: span 1;
+                grid-row-end: span 1;
+            }
+
+            .item:nth-of-type(5), .item:nth-of-type(6), .item:nth-of-type(7), {
+                display: none;
+            }
+
+            * {
+                text-align: center;
+            }
+
+            .button {
+                width: 27px;
+                height: 27px;
+
+                .fb {
+                    width: 6px;
+                    height: 12px;
+                }
+
+                .twitter {
+                    width: 11px;
+                    height: 10px;
+                }
+
+                .insta {
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+
+            .buttons {
+                width: 91px;
+                height: 27px;
+
+                top: 44px;
+                left: calc(50% - 46px);
+            }
+
+            h3 {
+                font-size: 14px;
+                margin-bottom: 4px;
+                padding-left: 1px;
+
+                span {
+                    display: none;
+                }
+            }
+
+            p {
+                font-size: 11px;
+                padding-left: 2px;
+            }
+            
+            .overlay {
+                padding-top: 11px;
+                padding-bottom: 10px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}

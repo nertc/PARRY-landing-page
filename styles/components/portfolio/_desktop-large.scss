@@ -1,0 +1,12 @@
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    #portfolio {
+        .main {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 379px);
+        }
+        
+        .item:nth-of-type(2){
+            grid-column-end: span 2;
+        }
+    } 
+}

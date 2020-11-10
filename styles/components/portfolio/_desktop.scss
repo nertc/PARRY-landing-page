@@ -1,0 +1,110 @@
+@import '../../palette';
+
+@media screen and (min-width: 1025px) {
+    #portfolio {
+        grid-template-columns: 0fr 1fr 0fr;
+        padding-top: 108px;
+        padding-bottom: 150px;
+        background-color: $secondary-color;
+        
+        .header {
+            margin-bottom: 82px;
+
+            h2 {
+                font-size: 31px;
+                margin-bottom: 10px;
+            }
+
+            img {
+                width: 16px;
+                height: 16px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 37px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            .fb, .insta, .twitter {
+                display: none;
+            }
+
+            .eye, .link {
+                display: flex;
+            }
+
+            grid-gap: 7px;
+
+            .item {
+                grid-column-end: span 1;
+                grid-row-end: span 1;
+            }
+
+            * {
+                text-align: center;
+            }
+
+            .button {
+                width: 46px;
+                height: 46px;
+
+                .eye {
+                    width: 23px;
+                    height: 13px;
+                }
+
+                .link {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .buttons {
+                width: 103px;
+                height: 46px;
+
+                top: 160px;
+                left: calc(50% - 61px);
+            }
+
+            h3 {
+                font-size: 17px;
+                margin-bottom: 8px;
+                padding-right: 7px;
+            }
+
+            p {
+                font-size: 13px;
+                padding-right: 6px;
+            }
+            
+            .overlay {
+                padding-top: 16px;
+                padding-bottom: 15px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #portfolio {
+        .main {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 379px);
+        }
+        
+        .item:nth-of-type(1), .item:nth-of-type(4), .item:nth-of-type(5){
+            grid-column-end: span 2;
+        }
+    } 
+}

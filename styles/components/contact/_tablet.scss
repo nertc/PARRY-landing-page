@@ -1,0 +1,115 @@
+@import '../../palette';
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #contact {
+        grid-template-columns: 0fr 1fr 0fr;
+        padding-top: 53px;
+        padding-bottom: 83px;
+        align-items: center;
+        justify-items: center;
+        
+        .header {
+            margin-bottom: 58px;
+
+            h2 {
+                font-size: 29px;
+                margin-bottom: 13px;
+            }
+
+            img {
+                width: 15px;
+                height: 15px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 35px;
+                height: 1px;
+            }
+        }
+
+        .main {
+            max-width: 945px;
+        }
+
+        .info .item:nth-of-type(1) div.img {
+            height: 34px;
+            margin-bottom: 18px;
+        }
+
+        .info .item:nth-of-type(2) div.img {
+            height: 22px;
+            margin-top: 3px;
+            margin-bottom: 25px;
+        }
+
+        .info .item:nth-of-type(3) {
+            left: 4px;
+
+            div.img {
+                height: 32px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .info {
+            $padding: 0px;
+            padding-left: $padding;
+            padding-right: $padding;
+            margin-bottom: 44px;
+            
+            .item {
+                width: 190px;
+            }
+            
+            p {
+                font-size: 15px;
+                letter-spacing: 0.4px;
+                line-height: 24px;
+                word-spacing: 1px;
+            }
+        }
+    
+        form {
+            $padlr: 24px;
+            padding-left: $padlr;
+            padding-right: $padlr;
+
+            input {
+                height: 46px;
+                margin-bottom: 14px;
+            }
+
+            textarea {
+                height: 171px;
+                $padtp: 16px;
+                padding-top: $padtp;
+                padding-bottom: $padtp;
+                margin-bottom: 17px;
+            }
+
+            input, textarea {
+                width: 100%;
+                padding-left: 11px;
+            }
+
+            #name, #mail {
+                width: calc(100% / 2 - 6px);
+            }
+
+            button {
+                width: 160px;
+                height: 42px;
+
+                font-size: 13px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}

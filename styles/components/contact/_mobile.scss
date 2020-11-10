@@ -1,0 +1,112 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    #contact {
+        grid-template-columns: 0fr 1fr 0fr;
+        padding-top: 26px;
+        padding-bottom: 83px;
+        align-items: center;
+        justify-items: center;
+        
+        .header {
+            margin-bottom: 44px;
+
+            h2 {
+                font-size: 27px;
+                margin-bottom: 13px;
+            }
+
+            img {
+                width: 14px;
+                height: 14px;
+    
+                margin: 0 10px;
+            }
+
+            hr {
+                width: 33px;
+                height: 1px;
+            }
+        }
+
+        .info .item:nth-of-type(1) div.img {
+            height: 34px;
+            margin-bottom: 18px;
+        }
+
+        .info .item:nth-of-type(2) div.img {
+            height: 22px;
+            margin-top: 3px;
+            margin-bottom: 25px;
+        }
+
+        .info .item:nth-of-type(3) div.img {
+            height: 32px;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            $padding: 45px;
+            padding-left: $padding;
+            padding-right: $padding;
+            margin-bottom: 4px;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+            
+            .item {
+                width: 190px;
+                margin-bottom: 34px;
+            }
+            
+            p {
+                font-size: 15px;
+                letter-spacing: 0.4px;
+                line-height: 24px;
+                word-spacing: 1px;
+            }
+        }
+    
+        form {
+            $padlr: 20px;
+            padding-left: $padlr;
+            padding-right: $padlr;
+
+            input {
+                height: 46px;
+                margin-bottom: 10px;
+            }
+
+            textarea {
+                height: 141px;
+                $padtp: 12px;
+                padding-top: $padtp;
+                padding-bottom: $padtp;
+                margin-bottom: 11px;
+            }
+
+            input, textarea {
+                width: 100%;
+                padding-left: 10px;
+            }
+
+            button {
+                padding-top: 2px;
+                padding-right: 3px;
+
+                width: 160px;
+                height: 42px;
+
+                font-size: 13px;
+            }
+        }
+
+        // transition: all 1s;
+        
+        * {
+            // transition: all 1s;
+        }
+    }
+}

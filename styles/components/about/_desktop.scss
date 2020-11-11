@@ -123,9 +123,11 @@
     #about {
         article {
             width: 450px;
+            height: auto;
         }
-        ul {
+        .main ul {
             justify-content: center;
+            height: auto;
         }
         transition: all 1s;
     }

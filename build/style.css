@@ -657,9 +657,11 @@ header .burger .inner {
   }
   #about article {
     width: 450px;
+    height: auto;
   }
-  #about ul {
+  #about .main ul {
     justify-content: center;
+    height: auto;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {

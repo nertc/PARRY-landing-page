@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.001" height="40.997" viewBox="0 0 27.001 40.997">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.413" y1="0.78" x2="0.587" y2="0.22" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b9a96"/>
+      <stop offset="1" stop-color="#005a57"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.19" y1="0.701" x2="-0.19" y2="0.299" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21a09c"/>
+      <stop offset="1" stop-color="#005653"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.71" y1="0.895" x2="0.29" y2="0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00807c"/>
+      <stop offset="1" stop-color="#3ab6b2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-901 -6814)">
+    <g id="Shape_30_copy_2" data-name="Shape 30 copy 2">
+      <path id="Shape_30_copy_2-2" data-name="Shape 30 copy 2" d="M911.527,6834.418l10.367-5.833,6.027,5.1-16.313,8.832Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M911.527,6834.418l10.367-5.833,6.027,5.1-16.313,8.832Z" opacity="0.77" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Shape_31_copy_2" data-name="Shape 31 copy 2">
+      <path id="Shape_31_copy_2-2" data-name="Shape 31 copy 2" d="M901.08,6818.537l7.715,3.646v32.765l-7.715.049Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay-2" data-name="Gradient Overlay" d="M901.08,6818.537l7.715,3.646v32.765l-7.715.049Z" opacity="0.77" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Shape_29_copy_2" data-name="Shape 29 copy 2">
+      <path id="Shape_29_copy_2-2" data-name="Shape 29 copy 2" d="M901,6818.537l7.634-4.537L928,6825.1l-.08,8.669Z" fill="#3ab6b2"/>
+      <path id="Gradient_Overlay-3" data-name="Gradient Overlay" d="M901,6818.537l7.634-4.537L928,6825.1l-.08,8.669Z" opacity="0.77" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

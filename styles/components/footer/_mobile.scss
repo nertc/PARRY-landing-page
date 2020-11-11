@@ -1,0 +1,59 @@
+@import '../../palette';
+
+@media screen and (max-width: 767px) {
+    footer{
+        padding-top: 43px;
+        padding-bottom: 59px;
+
+        .logo {
+            margin-bottom: 43px;
+            right: 2px;
+
+            .img {
+                width: 25px;
+    
+                img {
+                    height: 37px;
+                }
+            }
+    
+            h1 {
+                font-size: 32.5px;
+                margin-top: 5px;
+            }
+        }
+
+        .be {
+            padding-top: 1px;
+            right: 1px;
+        }
+
+        .fb {
+            padding-left: 1px;
+        }
+
+        .twitter {
+            padding-left: 1px;
+        }
+
+        .mail {
+            padding-right: 2px;
+        }
+
+        .flickr {
+            padding-top: 1px;
+        }
+
+        .logos {
+            margin-bottom: 35px;
+
+            div {
+                margin-bottom: 7px;
+            }
+        }
+        
+        p {
+            padding-right: 6px;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+@import '../../palette';
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: $footer-color;
+    width: 100%;
+
+    .logo {
+        h1 {
+            color: $text-color;
+            font-weight: 300;
+        }
+    }
+
+    .logos {
+        justify-content: center;
+        $padlr: 67px;
+        padding-left: $padlr - 1px - 4.5px;
+        padding-right: $padlr - 1px - 4.5px;
+        width: 100%;
+        flex-wrap: wrap;
+
+
+        div {
+            width: 40px;
+            height: 40px;
+            margin-left: 4.5px;
+            margin-right: 4.5px;
+            background-color: $icon-bg-color;
+            border-radius: 3px;
+        }
+
+        .mail {
+            img {
+                width: 16px;
+                height: 12px;
+            }
+
+            &:hover {
+                background-color: $mail-color;
+            }
+        }
+
+        .twitter {
+            img {
+                width: 14px;
+                height: 13px;
+            }
+
+            &:hover {
+                background-color: $twitter-color;
+            }
+        }
+
+        .fb {
+            img {
+                width: 7px;
+                height: 15px;
+            }
+
+            &:hover {
+                background-color: $fb-color;
+            }
+        }
+
+        .be {
+            img {
+                width: 16px;
+                height: 10px;
+            }
+
+            &:hover {
+                background-color: $be-color;
+            }
+        }
+
+        .deviantart {
+            img {
+                width: 22px;
+                height: 12px;
+            }
+
+            &:hover {
+                background-color: $deviantart-color;
+            }
+        }
+
+        .flickr {
+            img {
+                width: 23px;
+                height: 11px;
+            }
+
+            &:hover {
+                background-color: $flickr-color;
+            }
+        }
+    }
+
+    p {
+        color: $text-color-v2;
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+    }
+}

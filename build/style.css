@@ -1449,6 +1449,7 @@ header .burger .inner {
   border: 1px solid #D4D4D4;
   color: #606060;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 #contact form input::placeholder, #contact form textarea::placeholder {
   color: #7C7C7C;
@@ -1629,7 +1630,7 @@ header .burger .inner {
   #contact {
     grid-template-columns: 0fr 1fr 0fr;
     padding-top: 26px;
-    padding-bottom: 83px;
+    padding-bottom: 45px;
     align-items: center;
     justify-items: center;
   }
@@ -1706,6 +1707,203 @@ header .burger .inner {
     width: 160px;
     height: 42px;
     font-size: 13px;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: #111111;
+  width: 100%;
+}
+footer .logo h1 {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+footer .logos {
+  justify-content: center;
+  padding-left: 61.5px;
+  padding-right: 61.5px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+footer .logos div {
+  width: 40px;
+  height: 40px;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+  background-color: #252525;
+  border-radius: 3px;
+}
+footer .logos .mail img {
+  width: 16px;
+  height: 12px;
+}
+footer .logos .mail:hover {
+  background-color: #E02F2F;
+}
+footer .logos .twitter img {
+  width: 14px;
+  height: 13px;
+}
+footer .logos .twitter:hover {
+  background-color: #55ACEE;
+}
+footer .logos .fb img {
+  width: 7px;
+  height: 15px;
+}
+footer .logos .fb:hover {
+  background-color: #46629E;
+}
+footer .logos .be img {
+  width: 16px;
+  height: 10px;
+}
+footer .logos .be:hover {
+  background-color: #3498DB;
+}
+footer .logos .deviantart img {
+  width: 22px;
+  height: 12px;
+}
+footer .logos .deviantart:hover {
+  background-color: #54675A;
+}
+footer .logos .flickr img {
+  width: 23px;
+  height: 11px;
+}
+footer .logos .flickr:hover {
+  background-color: #FE0382;
+}
+footer p {
+  color: #FFFEFE;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (min-width: 1025px) {
+  footer {
+    padding-top: 47px;
+    padding-bottom: 59px;
+  }
+  footer .logo {
+    margin-bottom: 43px;
+  }
+  footer .logo .img {
+    width: 27px;
+  }
+  footer .logo .img img {
+    height: 41px;
+  }
+  footer .logo h1 {
+    font-size: 36px;
+    margin-top: 5px;
+  }
+  footer .be {
+    padding-top: 1px;
+  }
+  footer .fb {
+    padding-left: 3px;
+  }
+  footer .twitter {
+    padding-left: 2px;
+  }
+  footer .mail {
+    padding-left: 2px;
+  }
+  footer .logos {
+    margin-bottom: 49px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    padding-top: 46px;
+    padding-bottom: 59px;
+  }
+  footer .logo {
+    margin-bottom: 43px;
+  }
+  footer .logo .img {
+    width: 27px;
+  }
+  footer .logo .img img {
+    height: 41px;
+  }
+  footer .logo h1 {
+    font-size: 36px;
+    margin-top: 6px;
+    right: 1px;
+  }
+  footer .be {
+    padding-top: 1px;
+  }
+  footer .fb {
+    padding-left: 3px;
+  }
+  footer .twitter {
+    padding-left: 2px;
+  }
+  footer .mail {
+    padding-right: 1px;
+  }
+  footer .deviantart {
+    padding-right: 3px;
+  }
+  footer .flickr {
+    padding-right: 4px;
+  }
+  footer .logos {
+    margin-bottom: 49px;
+    margin-right: 6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding-top: 43px;
+    padding-bottom: 59px;
+  }
+  footer .logo {
+    margin-bottom: 43px;
+    right: 2px;
+  }
+  footer .logo .img {
+    width: 25px;
+  }
+  footer .logo .img img {
+    height: 37px;
+  }
+  footer .logo h1 {
+    font-size: 32.5px;
+    margin-top: 5px;
+  }
+  footer .be {
+    padding-top: 1px;
+    right: 1px;
+  }
+  footer .fb {
+    padding-left: 1px;
+  }
+  footer .twitter {
+    padding-left: 1px;
+  }
+  footer .mail {
+    padding-right: 2px;
+  }
+  footer .flickr {
+    padding-top: 1px;
+  }
+  footer .logos {
+    margin-bottom: 35px;
+  }
+  footer .logos div {
+    margin-bottom: 7px;
+  }
+  footer p {
+    padding-right: 6px;
   }
 }
 

@@ -122,12 +122,6 @@
             background-position-y: bottom;
             transition: all 3s ease-in-out;
         }
-
-        transition: all 1s;
-        
-        * {
-            transition: all 1s;
-        }
     }
 }
 
@@ -141,6 +135,5 @@
             justify-content: center;
             height: auto;
         }
-        transition: all 1s;
     }
 }

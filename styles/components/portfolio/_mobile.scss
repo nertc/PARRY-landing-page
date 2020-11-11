@@ -52,7 +52,7 @@
                 grid-row-end: span 1;
             }
 
-            .item:nth-of-type(5), .item:nth-of-type(6), .item:nth-of-type(7), {
+            .item:nth-of-type(5), .item:nth-of-type(6), .item:nth-of-type(7) {
                 display: none;
             }
 
@@ -107,12 +107,6 @@
                 padding-top: 11px;
                 padding-bottom: 10px;
             }
-        }
-
-        // transition: all 1s;
-        
-        * {
-            // transition: all 1s;
         }
     }
 }

@@ -1,10 +1,6 @@
 @import '../../palette';
 
 @media screen and (max-width: 767px){
-    html, body {
-        min-width: 320px;
-    }
-
     header {
         height: 21vw;
         max-height: 109px;
@@ -44,12 +40,6 @@
 
         nav {
             display: none;
-        }
-
-        transition: all 1s;
-        
-        * {
-            transition: all 1s;
         }
     }
 }

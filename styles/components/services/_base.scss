@@ -36,8 +36,9 @@
             background-position: center center;
         }
 
-        .img:hover {
+        .container:hover .img {
             background-image: url('../images/services/hexagon-hover.svg');
+            transform: rotateY(360deg);
         }
     }
 }

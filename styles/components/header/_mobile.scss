@@ -19,8 +19,7 @@
             }
         }
 
-        .burger { 
-            display: flex;
+        .burger {
             width: 17.5%;
             height: 50%;
             max-width: 56px;
@@ -36,10 +35,15 @@
                 max-width: 30px;
                 height: 12px;
             }
+
+            opacity: 1;
+            transition-property: width, height, opacity;
+            transition-delay: 0s, 0s, 1s;
         }
 
         nav {
-            display: none;
+            pointer-events: none;
+            opacity: 0;
         }
     }
 }

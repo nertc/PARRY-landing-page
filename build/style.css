@@ -15,6 +15,7 @@ span {
 
 html, body {
   min-width: 320px;
+  overflow-x: hidden;
 }
 
 .main {
@@ -142,6 +143,10 @@ header {
   width: 100%;
   align-items: center;
 }
+header .logo {
+  position: absolute;
+  left: 0;
+}
 header .logo .img {
   height: 100%;
 }
@@ -153,6 +158,12 @@ header .logo h1 {
   font-weight: 300;
   font-size: 1em;
 }
+header nav {
+  width: 740px;
+  display: block;
+  position: absolute;
+  right: 0;
+}
 header nav ul {
   width: 100%;
 }
@@ -163,17 +174,27 @@ header nav a {
   text-decoration: none;
 }
 header .burger {
+  display: flex;
+  position: absolute;
+  right: 0;
   background-color: #3AB6B2;
+  width: 56px;
+  height: 39px;
 }
 header .burger .inner {
+  width: 52px;
+  height: 35px;
   background-color: transparent;
   border: 1px solid #FFFFFF;
+}
+header .burger img {
+  width: 30px;
+  height: 12px;
 }
 
 @media screen and (min-width: 1025px) {
   header {
     grid-template-columns: minmax(25px, 1fr) minmax(970px, 1170px) minmax(25px, 1fr);
-    transition: all 1s;
   }
   header .logo {
     width: 121px;
@@ -184,23 +205,24 @@ header .burger .inner {
     margin-top: 12px;
     letter-spacing: 0.01em;
   }
-  header .burger {
-    display: none;
-  }
   header nav {
-    display: block;
     width: 740px;
     margin-bottom: 2px;
+    opacity: 1;
+    transition-property: width, margin-bottom, font-size, opacity;
+    transition-delay: 0s, 0s, 0s, 1s;
   }
   header nav a {
     font-size: 14px;
   }
-  header * {
-    transition: all 1s;
+  header .burger {
+    pointer-events: none;
+    opacity: 0;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   header {
+    left: 0;
     height: 106px;
   }
   header .logo {
@@ -239,9 +261,11 @@ header .burger .inner {
     letter-spacing: 0.01em;
   }
   header .burger {
-    display: flex;
     width: 56px;
     height: 39px;
+    opacity: 1;
+    transition-property: width, height, opacity;
+    transition-delay: 0s, 0s, 1s;
   }
   header .burger .inner {
     width: 52px;
@@ -252,7 +276,8 @@ header .burger .inner {
     height: 12px;
   }
   header nav {
-    display: none;
+    pointer-events: none;
+    opacity: 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -273,11 +298,13 @@ header .burger .inner {
     letter-spacing: 0.01em;
   }
   header .burger {
-    display: flex;
     width: 17.5%;
     height: 50%;
     max-width: 56px;
     max-height: 39px;
+    opacity: 1;
+    transition-property: width, height, opacity;
+    transition-delay: 0s, 0s, 1s;
   }
   header .burger .inner {
     width: calc(100% - 4px);
@@ -289,7 +316,8 @@ header .burger .inner {
     height: 12px;
   }
   header nav {
-    display: none;
+    pointer-events: none;
+    opacity: 0;
   }
 }
 #home {
@@ -900,8 +928,9 @@ header .burger .inner {
   background-size: contain;
   background-position: center center;
 }
-#services .main .img:hover {
+#services .main .container:hover .img {
   background-image: url("../images/services/hexagon-hover.svg");
+  transform: rotateY(360deg);
 }
 
 @media screen and (min-width: 1025px) {

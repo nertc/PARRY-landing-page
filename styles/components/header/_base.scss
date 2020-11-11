@@ -6,6 +6,9 @@ header {
     align-items: center;
 
     .logo {
+        position: absolute;
+        left: 0;
+
         .img {
             height: 100%;
 
@@ -22,6 +25,11 @@ header {
     }
 
     nav {
+        width: 740px;
+        display: block;
+        position: absolute;
+        right: 0;
+
         ul {
             width: 100%;
         }
@@ -35,11 +43,24 @@ header {
     }
 
     .burger {
+        display: flex;
+        position: absolute;
+        right: 0;
+
         background-color: $focus-color;
+        width: 56px;
+        height: 39px;
 
         .inner {
+            width: 52px;
+            height: 35px;
             background-color: transparent;
             border: 1px solid $inner-border-color;
+        }
+
+        img {
+            width: 30px;
+            height: 12px;
         }
     }
 }

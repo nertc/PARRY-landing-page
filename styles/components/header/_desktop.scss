@@ -13,35 +13,30 @@
                 margin-top: 12px;
                 letter-spacing: 0.01em;
             }
-        }
-
-        .burger {
-            display: none;
-        }
-
-        
+        }        
 
         nav {
-            display: block;
-
             width: 740px;
             margin-bottom: 2px;
 
             a {
                 font-size: 14px;
             }
+            opacity: 1;
+            transition-property: width, margin-bottom, font-size, opacity;
+            transition-delay: 0s, 0s, 0s, 1s;
         }
 
-        transition: all 1s;
-        
-        * {
-            transition: all 1s;
+        .burger {
+            pointer-events: none;
+            opacity: 0;
         }
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     header{
+        left: 0;
         height: 106px;
 
         .logo {

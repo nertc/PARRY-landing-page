@@ -3,6 +3,7 @@
   position: relative;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-position: center center;
 }
 
 span {
@@ -312,6 +313,9 @@ header .burger .inner {
 }
 #home {
   background-color: #292929;
+  background-image: url("../images/home/wallpaper1.png");
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   align-items: center;
   text-align: center;
@@ -568,6 +572,7 @@ header .burger .inner {
     grid-template-columns: minmax(20px, 1fr) minmax(738px, 1176px) minmax(20px, 1fr);
     padding-top: 114px;
     padding-bottom: 127px;
+    transition: all 1s;
   }
   #about .mobile, #about .tablet, #about .small, #about button, #about .mob {
     display: none;
@@ -650,6 +655,19 @@ header .burger .inner {
     height: 216px;
     padding-left: 2px;
   }
+  #about .screen {
+    background-image: url(../images/about/screen.jpg);
+    background-size: cover;
+    background-position: top center;
+    transition: all 3s ease-in-out;
+  }
+  #about .screen:hover {
+    background-position-y: bottom;
+    transition: all 3s ease-in-out;
+  }
+  #about * {
+    transition: all 1s;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   #about {
@@ -722,6 +740,9 @@ header .burger .inner {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 30px;
+    background-image: url("../images/about/mobile.png");
+    background-size: cover;
+    background-position: center center;
   }
   #about .main article {
     margin-left: 24px;
@@ -827,6 +848,9 @@ header .burger .inner {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 17px;
+    background-image: url("../images/about/mobile.png");
+    background-size: cover;
+    background-position: center center;
   }
   #about .main article {
     margin-left: 20px;
@@ -886,6 +910,9 @@ header .burger .inner {
   }
 }
 #services {
+  background-image: url("../images/services/wallpaper.jpg");
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   align-items: center;
 }
@@ -906,12 +933,12 @@ header .burger .inner {
   color: #3AB6B2;
 }
 #services .main .img {
-  background-image: url("../../../images/services/hexagon.svg");
+  background-image: url("../images/services/hexagon.svg");
   background-size: contain;
   background-position: center center;
 }
 #services .main .img:hover {
-  background-image: url("../../../images/services/hexagon-hover.svg");
+  background-image: url("../images/services/hexagon-hover.svg");
 }
 
 @media screen and (min-width: 1025px) {
@@ -1153,6 +1180,41 @@ header .burger .inner {
 }
 #portfolio .main .item:hover .dark-overlay {
   display: block;
+}
+#portfolio .main .item:nth-of-type(1) .bg {
+  background-image: url("../images/portfolio/wallpaper1.png");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(2) .bg {
+  background-image: url("../images/portfolio/wallpaper2.png");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(3) .bg {
+  background-image: url("../images/portfolio/wallpaper3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(4) .bg {
+  background-image: url("../images/portfolio/wallpaper4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(5) .bg {
+  background-image: url("../images/portfolio/wallpaper5.png");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(6) .bg {
+  background-image: url("../images/portfolio/wallpaper6.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#portfolio .main .item:nth-of-type(7) .bg {
+  background-image: url("../images/portfolio/wallpaper7.png");
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (min-width: 1025px) {

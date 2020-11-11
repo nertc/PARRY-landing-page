@@ -1,6 +1,9 @@
 @import '../../palette';
 
 #services {
+    background-image: url('../images/services/wallpaper.jpg');
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     align-items: center;
 
@@ -28,13 +31,13 @@
         }
 
         .img {
-            background-image: url('../../../images/services/hexagon.svg');
+            background-image: url('../images/services/hexagon.svg');
             background-size: contain;
             background-position: center center;
         }
 
         .img:hover {
-            background-image: url('../../../images/services/hexagon-hover.svg');
+            background-image: url('../images/services/hexagon-hover.svg');
         }
     }
 }

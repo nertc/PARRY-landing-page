@@ -95,4 +95,13 @@
             display: block;
         }
     }
+
+    $extension: (1:'png', 2:'png', 3:'jpg', 4:'jpg', 5:'png', 6:'jpg', 7:'png');
+    @for $i from 1 through 7 {
+        .main .item:nth-of-type(#{$i}) .bg {
+            background-image: url('../images/portfolio/wallpaper' + $i + '.' + map-get($extension , $i));
+            background-size: cover;
+            background-position: center center;
+        }
+    }
 }

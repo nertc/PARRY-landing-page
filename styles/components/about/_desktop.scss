@@ -111,10 +111,22 @@
             }
         }
 
-        // transition: all 1s;
+        .screen {
+            background-image: url(../images/about/screen.jpg);
+            background-size: cover;
+            background-position: top center;
+            transition: all 3s ease-in-out;
+        }
+
+        .screen:hover {
+            background-position-y: bottom;
+            transition: all 3s ease-in-out;
+        }
+
+        transition: all 1s;
         
         * {
-            // transition: all 1s;
+            transition: all 1s;
         }
     }
 }
